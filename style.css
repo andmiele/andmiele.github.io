@@ -1,0 +1,77 @@
+.profile-picture {
+  border-radius: 70%;
+}
+
+.bd {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.bd {
+  background: linear-gradient(to bottom, rgba(35, 215, 108, 1) 0%, rgba(46, 188, 203, 1) 100%);
+}
+
+.name {
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 2px;
+}
+
+.wrapper {
+  max-width: 90%;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.left, .right {
+  margin: 0px;
+  max-width: 90%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.left {
+  align-items: center;
+  justify-content: center;
+   font-size: 26px;
+}
+
+.right {
+  font-size: 22px;
+}
+
+li{
+  margin: 15px 0;
+}
+
+.profile-picture {
+  border-radius: 50%;
+}
+
+.project-links {
+  list-style: none;
+  padding-left: 0px;
+  font-size: 28px;
+}
+
+.project-links li {
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.project-links a {
+  text-decoration: none;
+  padding: 2px;
+}
+
+.project-links a:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
